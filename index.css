@@ -1,0 +1,235 @@
+/* GLOBAL  */
+body {
+  background-color: #F6E8EA;
+  color: #343330;
+  margin: 0;
+}
+
+.dates-right {
+  /* position:absolute;
+  right:6px;
+  top: 2px */
+  float:right;
+}
+
+#main {
+  margin: 0 10px 10px 10px;
+}
+
+/* NAVBAR */
+#navbar {
+  color: #F6E8EA;
+  background-color: #7E5920;
+  padding: 5px 10px;
+  text-align: center;
+  margin: 0;
+}
+
+#navbar li {
+  display: inline-block;
+  margin: 0 30px;
+}
+
+#navbar li a {
+  color: #F6E8EA;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+.location-link a {
+  text-decoration: none;
+}
+
+/* HEADER */
+#header {
+  text-align: center;
+}
+
+#header h1 {
+  font-size: 64px;
+  margin-bottom: 0px;
+}
+
+#header p {
+  font-size: 24px;
+  margin-top: 5px;
+}
+
+#header ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+#header li {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+/* ABOUT */
+#about {
+  margin-top: 30px;
+  color: #F6E8EA;
+  /* background-color: #343330; */
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
+#about h1 {
+  border-radius: 10px;
+  padding: 5px 10px;
+  /* background-color: #7E5920; */
+  background-color: none;
+  color: #343330;
+  text-align: center;
+  display: none;
+}
+
+#about p {
+  color: #276EB9;
+}
+
+/* EXPERIENCE */
+#experience {
+  border: 2px solid #343330;
+  margin-top: 30px;
+  padding: 5px 10px;
+  border-radius: 10px;
+  /*background-color: rgb(28, 75, 143, 0.2);*/
+  background-color: white;
+}
+
+#experience > ul {
+  list-style: none;
+  padding-left: 0;
+  color: #276EB9;
+}
+
+#experience .single-exp {
+  margin-bottom: 30px;
+}
+
+#experience .single-exp > li {
+  font-size: 18px;
+  font-weight: 600;
+  background-color: #7E5920;
+  color: #F6E8EA;
+  padding: 2px 10px;
+  border-radius: 20px;
+  margin-bottom: 5px;
+  /* position:relative; */
+  overflow:auto;
+}
+
+#experience .single-exp div {
+  text-align: right;
+  font-style: italic;
+}
+
+/* EDUCATION */
+#education {
+  border: 2px solid #343330;
+  margin-top: 30px;
+  padding: 5px 10px;
+  border-radius: 10px;
+  /*background-color: rgb(28, 75, 143, 0.2);*/
+  background-color: white;
+}
+
+#education .single-edu > li {
+  font-size: 18px;
+  font-weight: 600;
+  background-color: #7E5920;
+  color: white;
+  padding: 2px 10px;
+  border-radius: 20px;
+  margin-bottom: 5px;
+  /* position:relative; */
+  overflow:auto;
+}
+
+#education > ul {
+  list-style: none;
+  padding-left: 0;
+  color: #276EB9;
+}
+
+/* PROJECTS */
+#projects {
+  margin-top: 30px;
+  text-align: center;
+  
+  /* border: 2px solid #343330; */
+  border: none;
+  padding: 2px 10px;
+  border-radius: 20px;
+}
+
+#projects h1 {
+  text-align: left;
+}
+
+#projects .project {
+  width: 240px;
+  height: 235px;
+  background-color: #343330;
+  display: inline-block;
+  margin: 0 10px;
+  color: #F6E8EA;
+  font-size: 24px;
+  padding: 100px 10px;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+#projects .project:hover {
+  cursor: pointer; 
+}
+
+#projects .project a {
+  color: #F6E8EA;
+  text-decoration: none;
+}
+
+#light-controller.project {
+  background-image: url('images/stoplights.png');
+  background-repeat: repeat;
+  background-size: contain;
+  background-position: top;
+  background-color: black;
+  text-shadow: 2px 2px black;
+}
+
+#brighton-collectibles.project {
+  background-image: url('https://media.brighton.com/images/stores/br5179_179_01.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  color: white;
+  text-shadow: 2px 2px black;
+}
+
+#pka.project {
+  background-image: url('images/pka.ico');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  color: white;
+  text-shadow: 2px 2px black;
+}
+
+/* SKILLS */
+#skills {
+  margin-top: 30px;
+  padding: 5px 10px;
+  border-radius: 10px;
+  color: #343330;
+  background-color: #F6E8EA;
+}
+
+#skills ul {
+  padding: 0;
+}
+
+#skills li {
+  display: inline-block;
+}
